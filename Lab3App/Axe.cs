@@ -10,12 +10,12 @@ namespace Lab3App
         }
         public override void Display()
         {
-            Console.WriteLine($"{nameof(Axe)} {Description} is displayed");
+            Console.WriteLine($"Axe {Description} is displayed");
         }
 
         public override void DoAction()
         {
-            Console.WriteLine($"{nameof(Axe)} is Used");
+            Console.WriteLine($"Axe is Used");
         }
     }
 }

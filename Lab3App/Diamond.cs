@@ -12,7 +12,7 @@ namespace Lab3App
 
         public override void Display()
         {
-            Console.WriteLine($"{nameof(Diamond)} {Description} is displayed");
+            Console.WriteLine($"Diamond{Description} is displayed");
         }
     }
 }
